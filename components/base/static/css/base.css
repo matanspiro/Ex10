@@ -1,0 +1,15 @@
+.base ul {
+    padding: 0;
+}
+
+.base > ul > li {
+    display: inline-block;
+}
+
+.base > ul li a.active {
+    color: var(--active-menu-item-color);
+}
+
+body{
+    background-color: aqua;
+}
